@@ -137,7 +137,8 @@ public Book(String title, double price)
 
 ### Exercise 2.18
 * Can you guess what types some of the `Book` class’s fields might be?
-String for Title and Double Float point for Price
+String for Title and Double Float point for Price.
+But if I suspect that some other types might be a Boolean for Hardcover/Softcover, maybe a String or ENUM for Genre like Fiction, Nonfiction, Horror, though I think those would be better stored as a Array as there could be overlap. A fiction Horror Sci-fi for instance.
 * Can you assume anything about the names of its fields?
 They are named that because that makes it easier for a coder to understand what it's doing. It's for readability 
 
