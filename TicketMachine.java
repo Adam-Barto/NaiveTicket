@@ -86,6 +86,13 @@ public class TicketMachine
      */
     public String printTicket()
     {
+        //Simulates Ticket print out, cause this wasn't here for some strange reason.
+        System.out.println("##################");
+        System.out.println("# The BlueJ Line");
+        System.out.println("# Ticket");
+        System.out.println("# " + price + " cents.");
+        System.out.println("##################");
+        System.out.println();
         //Increment the number of tickets printed
         incrementTicketNumber();
         // Update the total collected with the balance.
